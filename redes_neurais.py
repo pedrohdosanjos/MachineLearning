@@ -35,14 +35,14 @@ X_train, X_test, y_train, y_test, y_train_labels, y_test_labels = train_test_spl
 model = Sequential(
     [
         Input(shape=(X.shape[1],)),
-        Dense(64, activation="relu"),
-        Dense(32, activation="relu"),
+        Dense(256, activation="relu"),
+        Dense(128, activation="relu"),
         Dense(1),  # Saída contínua
     ]
 )
 
 # %%
-model.compile(loss="mse", metrics=["mae", "accuracy"])
+model.compile(loss="mse", metrics=["mae"])
 
 # %%
 # Treinamento
