@@ -1,25 +1,30 @@
-# Previsão de Gravidade com Sinais Vitais
+# Severity Prediction from Vital Signs
 
-Este projeto tem como objetivo prever a gravidade de pacientes com base em sinais vitais como **qualidade da pressão**, **pulso** e **respiração**. A abordagem envolve a construção de um modelo de aprendizado de máquina, especificamente uma rede neural, para classificar os dados de entrada em diferentes níveis de gravidade.
+This project aims to predict patient severity based on vital signs such as **blood pressure quality**, **pulse**, and **respiration**. The approach involves building a machine learning model, specifically a neural network, to classify input data into different levels of severity.
 
-## Descrição
+---
 
-O modelo foi desenvolvido para:
+## Description
 
-1. **Prever a gravidade contínua** de pacientes com base em sinais vitais.
-2. **Classificar a gravidade** em 4 classes distintas, com base em intervalos definidos para a gravidade.
+The model was developed to:
 
-## Requisitos
+1. **Predict continuous severity** of patients based on vital signs.
+2. **Classify severity** into 4 distinct classes, based on predefined severity intervals.
+
+---
+
+## Requirements
 
 - Python 3.x
-- Bibliotecas:
-  - **TensorFlow / Keras** (para construção e treinamento de redes neurais)
-  - **scikit-learn** (para manipulação de dados e métricas)
-  - **pandas** (para leitura e manipulação de dados)
-  - **numpy** (para operações numéricas)
-  - **matplotlib** e **seaborn** (para visualização dos resultados)
+- Libraries:
+  - **TensorFlow / Keras** (for building and training neural networks)
+  - **scikit-learn** (for data handling and evaluation metrics)
+  - **pandas** (for reading and manipulating data)
+  - **numpy** (for numerical operations)
+  - **matplotlib** and **seaborn** (for result visualization)
 
+---
 
-## Link da análise de resultados 
+## 📄 Link to the result analysis
 
-https://docs.google.com/document/d/1gAtkXHe-K8Z3k5A_EhBQT9y2d3X-CyJAxHyxIDcuyao/edit?usp=sharing
+[Google Docs - Analysis](https://docs.google.com/document/d/1gAtkXHe-K8Z3k5A_EhBQT9y2d3X-CyJAxHyxIDcuyao/edit?usp=sharing)
